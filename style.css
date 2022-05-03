@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: large;
+    margin: 5px;
+    color: #eee;
+    cursor: pointer;
+}
+
+.jogador {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #dbdbdb;
+}
